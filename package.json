@@ -1,0 +1,19 @@
+{
+  "name": "effect-nostr-client",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@effect/language-service": "^0.36.0",
+    "@types/bun": "latest",
+    "@types/node": "^24.3.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@effect/platform": "^0.90.6",
+    "@effect/platform-node": "^0.96.0",
+    "effect": "^3.17.9"
+  }
+}
